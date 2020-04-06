@@ -1,0 +1,28 @@
+
+안녕하세요 교수님. 생명과학과 학번 20150264 이성환입니다.
+
+2주차 과제 제출하겠습니다. 
+
+교수님이 제시해주신 방법에 따라 vim 설정 파일 내용을 올립니다. 
+
+set encoding=utf-8 "utf-8 파일을 인코딩하는 설정입니다.
+set guifont=d2coding:h16 "폰트를 불러오는 설정입니다.
+set tabstop=4 "탭의 사이즈를 4칸으로 설정했습니다.
+set shiftwidth=4 "shift키의 사이즈를 4칸으로 설정했습니다.
+set cindent " C 프로그래밍용 자동 들여쓰기 설정입니다.
+set nu "앞자리에 번호를 매겨주는 설정입니다.
+set ignorecase "검색시 대소문자를 무시하는 설정입니다.
+set hlsearch "검색어 강조 설정입니다.
+set nocompatible "오리지날 vi와 호환하지 않는 설정입니다.
+set ruler "커서위치를 표시해주는 설정입니다.
+set title "타이틀바에 현재 편집중인 파일을 표시하는 설정입니다.
+set wmnu "tab 자동완성시 가능한 목록을 보여주는 설정입니다.
+set fileencodings=utf8,euc-kr " vim으로 파일을 열때, 그 파일의 인코딩 방식에 따라 열게되는 설정이다. 윈도우 메모장에서는 euc-kr 인코딜을 쓰고, 리눅스 터미널은 utf8 형식을 기본적으로 가지고있어, utf8,euc-kr을 명시해줌으로써 인코딩 방식이 달라도 정상적인 출력을 보장하는 설정입니다.
+
+colorscheme blue " :color + tab을 이용하지 않고 vi 색상(blue)을 고르는 설정입니다.
+filetype indent on " 파일 종류에 따른 구문강조입니다.
+syntax on " 구문강조 사용설정 입니다.
+
+이상입니다.
+
+과제 검토하시느랴 고생많으십니다. 감사합니다.
