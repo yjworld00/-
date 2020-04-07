@@ -1,11 +1,11 @@
-syntax on "º¸±â Æí¾ÈÇÏ±â À§ÇØ
-color desert "´«ÀÌ ºÎ½ÃÁö ¾Êµµ·Ï ¾îµÎ¿î »ö»ó ¼³Á¤
-set guifont=D2Coding:h16
-set ruler "Ä¿¼­ À§Ä¡ Ç¥½Ã
-set nu "ÁÙ¹øÈ£, ¸í·É¾î ¼ö ¼¼±â
-set warn "ÀúÀåÇÏÁö ¾Ê°í Á¾·áÇØ¼­ ³ë·ÂÀÌ Çê¼ö°í°¡ µÇÁö ¾Êµµ·Ï ¹æÁö
-set encoding=utf-8
-set hlsearch "°Ë»ö¾î °­Á¶
-set autoindent "ÀÚµ¿ µé¿©¾²±â
-set bs=indent,eol,start "¹æÇâÅ°ÀÎ backspace Áö¿ì±â Å°·Î º¯°æ
-
+syntax on "syntax ê°•ì¡° ì‚¬ìš©
+color desert "desert ìƒ‰ìƒ ì„¤ì •
+set autoindent "ìë™ ë“¤ì—¬ì“°ê¸° í™œì„±í™”
+set cindent "ìë™ ë“¤ì—¬ì“°ê¸°
+set guifont=D2Cording:h16 "fontë° í¬ê¸° ì„¤ì •
+set ruler "ì»¤ì„œ ìœ„ì¹˜ í‘œì‹œ
+set nu "ì¤„ë²ˆí˜¸ ì„¤ì •
+set warn "ì €ì¥í•˜ì§€ ì•Šê³  ì¢…ë£Œì‹œ ê²½ê³  í‘œì‹œ
+set encoding=utf-8 "ì¸ì½”ë”© í˜•ì‹utf-8
+set hlsearch "ê²€ìƒ‰ì–´ ê°•ì¡°
+set bs=indent,eol,start : "ë°©í–¥í‚¤ë¡œ ì„¤ì • ë˜ì–´ ìˆëŠ” baskspaceí‚¤ë¥¼ ì§€ìš°ê¸° í‚¤ë¡œ ì„¤ì •
