@@ -1,0 +1,11 @@
+syntax on "보기 편안하기 위해
+color desert "눈이 부시지 않도록 어두운 색상 설정
+set guifont=D2Coding:h16
+set ruler "커서 위치 표시
+set nu "줄번호, 명령어 수 세기
+set warn "저장하지 않고 종료해서 노력이 헛수고가 되지 않도록 방지
+set encoding=utf-8
+set hlsearch "검색어 강조
+set autoindent "자동 들여쓰기
+set bs=indent,eol,start "방향키인 backspace 지우기 키로 변경
+
