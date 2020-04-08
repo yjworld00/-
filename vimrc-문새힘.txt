@@ -1,0 +1,6 @@
+new file
+set nu "행에 숫자를 넣어 줍니다."
+autowrite aw "다른 파일로 옮겨갈 명령을 실행하기 전 또는 쉘로 잠시 나오기 전에 현재 파일을 강제로 저장한다."
+set ruler " 현재 커서 위치 표시합니다."
+set ignorecase "검색시 대소문자를 무시합니다."
+set cindent " C언어 자동 들여쓰기 입니다."

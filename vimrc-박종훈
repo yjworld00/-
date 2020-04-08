@@ -1,0 +1,11 @@
+syntax on "syntax 강조 사용
+color desert "desert 색상 설정
+set autoindent "자동 들여쓰기 활성화
+set cindent "자동 들여쓰기
+set guifont=D2Cording:h16 "font및 크기 설정
+set ruler "커서 위치 표시
+set nu "줄번호 설정
+set warn "저장하지 않고 종료시 경고 표시
+set encoding=utf-8 "인코딩 형식utf-8
+set hlsearch "검색어 강조
+set bs=indent,eol,start : "방향키로 설정 되어 있는 baskspace키를 지우기 키로 설정
