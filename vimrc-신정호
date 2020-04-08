@@ -1,0 +1,97 @@
+"# 플러그인
+set nocompatible              " be iMproved, required
+filetype off                  " required
+" set the runtime path to include Vundle and initialize
+set rtp+=$HOME/.vim/bundle/Vundle.vim/
+call vundle#begin('$HOME/.vim/bundle/')
+
+"=============== 플러그인 설치 영역 시작 ===============
+"## Vundle (REQUIRED)
+Plugin 'VundleVim/Vundle.vim'
+
+"## NERDTree
+Plugin 'scrooloose/nerdtree'
+
+"## fugitive.vim
+Plugin 'tpope/vim-fugitive'
+
+"## surround.vim
+Plugin 'tpope/vim-surround'
+
+"## Syntastic
+Plugin 'scrooloose/syntastic'
+
+"## Auto Pairs
+Plugin 'jiangmiao/auto-pairs'
+
+"## Solarized color scheme
+Plugin 'altercation/vim-colors-solarized'
+
+"===============  플러그인 설치 영역 끝  ===============
+"vim 재시작 후
+" :source %
+" :PluginInstall
+"입력하여 설치 시작
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+"# 일반
+set autowrite "다른 파일 열 때 현재 파일 자동 저장
+set encoding=utf-8 "인코딩을 UTF-8로 설정
+set nobackup "백업파일 생성 안 함
+
+"## 명령줄
+set wmnu "Command mode에서 Tab 키를 눌러 자동 완성 목록 표시
+
+"# 외관
+set guifont=D2Coding:h12 "gvim에서 fontface를 D2Coding, fontsize를 12로 설정
+syntax on "구문 강조 사용
+set background=dark "어두운 배경 사용
+colorscheme solarized "Solarized color scheme 사용
+
+set number "줄번호 표시
+set ruler "하단 상태 표시줄에 커서 위치 표시
+
+"# 단축키 
+"## Ctrl-S -> 저장 (NORMAL, INSERT)
+imap <C-s> <esc>:w<CR>
+nmap <C-s> :w<CR>
+
+"## Ctrl-Z ->되돌리기 (NORMAL, INSERT)
+nmap <C-z> u
+imap <C-z> <esc>u
+
+"## Ctrl-C -> 복사 (VISUAL)
+vmap <C-c> "+y
+
+"## Ctrl-X -> 잘라내기 (VISUAL)
+vmap <C-x> "+x
+
+"## Ctrl-V -> 붙여넣기 (NORMAL, INSERT)
+imap <C-v> <esc>"+gP
+nmap <C-v> <esc>"+gP
+
+"## CTRL-F -> 찾기 (NORMAL)
+nmap <C-f> /
+imap <C-f> <esc>/
+
+"## CTRL-A -> 전체 선택 (NORMAL, INSERT)
+nmap <C-a> ggVG
+imap <C-a> <esc>ggVG
+
+"# 검색
+set ignorecase "검색 대소문자 구분 비활성화
+set hlsearch "검색 대상 하이라이트
+set incsearch "키 입력마다 일치하는 대상 표시
+set nowrapscan "처음부터 다시 검색 안 함
+
+"# 편집
+set autoindent "자동 들여쓰기
+set expandtab "Tab을 스페이스바로 사용
+set tabstop=4 "Tab을 4칸으로 설정
+set shiftwidth=4 "자동 Tab을 4칸으로 설정
+set showmatch "괄호 짝 표시
+set backspace=indent,eol,start "Backspace를 입력 시작점 앞에서도 허용
+
+"## 내용 펼치기(zo)/접기(zc)
+set foldmethod=indent "들여쓰기 기준으로 접기
