@@ -1,0 +1,14 @@
+syntax on
+color pablo
+
+set number " 라인 넘버를 보여준다.
+set paste " 복사 붙혀넣기를 할 때 깨지는걸 막는다. 
+set nobackup " 백업기능 사용하지않음.
+set autoindent "자동 들여쓰기   
+set cindent " c언어관련 자동 들여쓰기
+set ts=4 " Tab 너비
+set shiftwidth=4 " 자동 인덴트할 때 너비
+set ignorecase " 대소문자 무시 검색 
+set smartcase " 대문자가 검색 문자열에 있을때는 대소문자 구분. 
+set hlsearch " 검색할 때 문자열 하이라이트.
+set showmatch " 괄호 임력 시 짝이 되는 괄호 하이라이트.
