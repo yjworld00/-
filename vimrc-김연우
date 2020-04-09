@@ -1,0 +1,24 @@
+"물리교육과 김연우 (201800466)
+"git 실습 과제
+
+:syntax on "문법강조기능을 켭니다
+:color desert "desert 컬러맵을 적용합니다
+:set encoding=utf-8 "utf-8로 인코딩합니다
+:set guifont=D2Coding:h12 "D2Coding폰트, 글자크기 12로 설정합니다
+:set nobackup "백업기능을 끕니다
+:set noswapfile "임시저장 기능을 끕니다
+:set noesckeys "esc키로 시작하는 명령어를 사용하지 않습니다
+:set number "행번호를 표시합니다
+:set showmatch "짝이 되는 괄호를 하이라이트로 표시합니다
+:set novisualbell "잘못된 명령어를 입력했을 때 화면을 번쩍이는 기능을 끕니다
+:set autochdir "열었는 문서가 들어있는 디렉토리로 작업 디렉토리를 자동으로 변경합니다
+:set autoindent "자동 들여쓰기를 켭니다(이전 줄의 들여쓰기를 다음 줄에서 유지
+:set smartindent "스마트 들여쓰기(C문법에 유용)를 사용합니다
+:set shiftwidth=4 "들여쓰기와 내어쓰기를 조절할 때 4칸씩 조절합니다
+:set incsearch "점진적 검색을 사용합니다
+:set hlsearch "검색어 강조 기능을 사용합니다
+:set nowrapscan "마지막 검색이 끝나면 다시 처음으로 돌아가지 않게 합니다
+:set noignorecase "대소문자를 구분하여 검색합니다
+:set splitbelow "두 문서로 화면을 나눌 때 아래쪽에 새로운 문서를 위치시킵니다
+:set expandtab "tab키를 누르면 tab키 대신에 지정한 수의 space를 입력합니다
+:set softtabstop=4 "tab대신 4 space를 입력합니다
