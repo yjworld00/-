@@ -1,0 +1,6 @@
+set encoding=utf-8"인코딩 utf-8버전으로 바꾸어주는 기능
+set autoindent"자동 들여쓰기 기능를 활성화합니다.
+set ruler"글씨의 몇줄 몇칸인지 알려주는 기능 
+set nobackup"저장해도 다른 이름을 저장되는것을 막는기능.
+set title"제목을 표시
+set nu"줄번호 설정 
