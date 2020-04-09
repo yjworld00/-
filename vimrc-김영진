@@ -1,0 +1,20 @@
+" 김영진입니다 잘부탁합니다
+
+set number               " line 표시를 해줍니다.
+set hlsearch       " 검색어 하이라이팅
+set autoindent      " 자동 인텐트
+set cindent      " 자동 인텐트   
+set smartcase       " 검색시 대소문자 구별
+set ruler          " 현재 커서 위치 표시
+set fileencodings=utf-8   " 파일인코딩 형식 지정
+set bs=indent,eol,start       " backspace 키 사용 가능 (기존에는 backspace 방향키였음)
+set title                  " 제목을 표시
+set showmatch          " 매칭되는 괄호를 보여줌
+syntax on         " 신텍스 강조 구문 사용
+set autowrite       " 다른 파일로 넘어갈 때 자동 저장
+set autoread       " 작업 중인 파일 외부에서 변경됬을 경우 자동으로 불러옴
+set cindent       " C언어 자동 들여쓰기
+set history=256       " 명령어 저장 256개
+set laststatus=2       " 상태바 표시 항상
+set shiftwidth=4       " 자동 들여쓰기 너비 설정
+set showmatch       " 일치하는 괄호 하이라이팅
